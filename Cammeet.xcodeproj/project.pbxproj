@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EB01E15DC5D042C06661EA7 /* Pods_CammeetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC242E1D58E55281AA10E216 /* Pods_CammeetUITests.framework */; };
+		70D23EFCEC2C76ED649B7332 /* Pods_Cammeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E98316366FB13B6DADCF22 /* Pods_Cammeet.framework */; };
 		CECE5FD020B1AC790018E878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FCF20B1AC790018E878 /* AppDelegate.swift */; };
 		CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FD120B1AC790018E878 /* ViewController.swift */; };
 		CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD320B1AC790018E878 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */; };
 		CECE5FE520B1AC7A0018E878 /* CammeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FE420B1AC7A0018E878 /* CammeetTests.swift */; };
 		CECE5FF020B1AC7A0018E878 /* CammeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */; };
+		E205FDCF4BBF2A0BC3D4E3E9 /* Pods_CammeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCDC3A15A0A7BFB318DC7FD /* Pods_CammeetTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E98316366FB13B6DADCF22 /* Pods_Cammeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cammeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F12FB065E6C70A75E50240 /* Pods-Cammeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cammeet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cammeet/Pods-Cammeet.release.xcconfig"; sourceTree = "<group>"; };
+		3DCDC3A15A0A7BFB318DC7FD /* Pods_CammeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CammeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAFE4D3402DD2DE31B3B1AB /* Pods-CammeetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetUITests/Pods-CammeetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58F07E7ACC73B6BDC87EBB0A /* Pods-CammeetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetTests/Pods-CammeetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AC008755EBDB27FD64477C8 /* Pods-CammeetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetTests/Pods-CammeetTests.release.xcconfig"; sourceTree = "<group>"; };
 		CECE5FCC20B1AC790018E878 /* Cammeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cammeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECE5FCF20B1AC790018E878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECE5FD120B1AC790018E878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		CECE5FEB20B1AC7A0018E878 /* CammeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CammeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CammeetUITests.swift; sourceTree = "<group>"; };
 		CECE5FF120B1AC7A0018E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FEEC42E49F2BAF2E5C39B1 /* Pods-CammeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetUITests/Pods-CammeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC242E1D58E55281AA10E216 /* Pods_CammeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CammeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE317C8384C466D5FD7F75B /* Pods-Cammeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cammeet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cammeet/Pods-Cammeet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D23EFCEC2C76ED649B7332 /* Pods_Cammeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E205FDCF4BBF2A0BC3D4E3E9 /* Pods_CammeetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB01E15DC5D042C06661EA7 /* Pods_CammeetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99B5EF18C67E22FF69268972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCE317C8384C466D5FD7F75B /* Pods-Cammeet.debug.xcconfig */,
+				34F12FB065E6C70A75E50240 /* Pods-Cammeet.release.xcconfig */,
+				58F07E7ACC73B6BDC87EBB0A /* Pods-CammeetTests.debug.xcconfig */,
+				7AC008755EBDB27FD64477C8 /* Pods-CammeetTests.release.xcconfig */,
+				E7FEEC42E49F2BAF2E5C39B1 /* Pods-CammeetUITests.debug.xcconfig */,
+				4DAFE4D3402DD2DE31B3B1AB /* Pods-CammeetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CECE5FC320B1AC790018E878 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				CECE5FE320B1AC7A0018E878 /* CammeetTests */,
 				CECE5FEE20B1AC7A0018E878 /* CammeetUITests */,
 				CECE5FCD20B1AC790018E878 /* Products */,
+				99B5EF18C67E22FF69268972 /* Pods */,
+				E2B3721EBB9006E69E4C648A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = CammeetUITests;
 			sourceTree = "<group>";
 		};
+		E2B3721EBB9006E69E4C648A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00E98316366FB13B6DADCF22 /* Pods_Cammeet.framework */,
+				3DCDC3A15A0A7BFB318DC7FD /* Pods_CammeetTests.framework */,
+				FC242E1D58E55281AA10E216 /* Pods_CammeetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CECE5FF420B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "Cammeet" */;
 			buildPhases = (
+				9E7A5F062C0BE6F217B33D2E /* [CP] Check Pods Manifest.lock */,
 				CECE5FC820B1AC790018E878 /* Sources */,
 				CECE5FC920B1AC790018E878 /* Frameworks */,
 				CECE5FCA20B1AC790018E878 /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CECE5FF720B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "CammeetTests" */;
 			buildPhases = (
+				6BE655674659F94E19C0950D /* [CP] Check Pods Manifest.lock */,
 				CECE5FDC20B1AC7A0018E878 /* Sources */,
 				CECE5FDD20B1AC7A0018E878 /* Frameworks */,
 				CECE5FDE20B1AC7A0018E878 /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CECE5FFA20B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "CammeetUITests" */;
 			buildPhases = (
+				A8B4C0676367F71BFD7C0D98 /* [CP] Check Pods Manifest.lock */,
 				CECE5FE720B1AC7A0018E878 /* Sources */,
 				CECE5FE820B1AC7A0018E878 /* Frameworks */,
 				CECE5FE920B1AC7A0018E878 /* Resources */,
@@ -250,6 +293,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BE655674659F94E19C0950D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CammeetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E7A5F062C0BE6F217B33D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cammeet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B4C0676367F71BFD7C0D98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CammeetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CECE5FC820B1AC790018E878 /* Sources */ = {
@@ -428,6 +528,7 @@
 		};
 		CECE5FF520B1AC7A0018E878 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE317C8384C466D5FD7F75B /* Pods-Cammeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,7 +538,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.Cammeet;
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.cammeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,6 +547,7 @@
 		};
 		CECE5FF620B1AC7A0018E878 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F12FB065E6C70A75E50240 /* Pods-Cammeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,7 +557,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.Cammeet;
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.cammeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +566,7 @@
 		};
 		CECE5FF820B1AC7A0018E878 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F07E7ACC73B6BDC87EBB0A /* Pods-CammeetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +588,7 @@
 		};
 		CECE5FF920B1AC7A0018E878 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC008755EBDB27FD64477C8 /* Pods-CammeetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +610,7 @@
 		};
 		CECE5FFB20B1AC7A0018E878 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FEEC42E49F2BAF2E5C39B1 /* Pods-CammeetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +631,7 @@
 		};
 		CECE5FFC20B1AC7A0018E878 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAFE4D3402DD2DE31B3B1AB /* Pods-CammeetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
