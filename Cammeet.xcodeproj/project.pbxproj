@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECE5FD020B1AC790018E878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FCF20B1AC790018E878 /* AppDelegate.swift */; };
+		CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FD120B1AC790018E878 /* ViewController.swift */; };
+		CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD320B1AC790018E878 /* Main.storyboard */; };
+		CECE5FD720B1AC7A0018E878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD620B1AC7A0018E878 /* Assets.xcassets */; };
+		CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */; };
+		CECE5FE520B1AC7A0018E878 /* CammeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FE420B1AC7A0018E878 /* CammeetTests.swift */; };
+		CECE5FF020B1AC7A0018E878 /* CammeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECE5FE120B1AC7A0018E878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECE5FC420B1AC790018E878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECE5FCB20B1AC790018E878;
+			remoteInfo = Cammeet;
+		};
+		CECE5FEC20B1AC7A0018E878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECE5FC420B1AC790018E878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECE5FCB20B1AC790018E878;
+			remoteInfo = Cammeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECE5FCC20B1AC790018E878 /* Cammeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cammeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECE5FCF20B1AC790018E878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECE5FD120B1AC790018E878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECE5FD420B1AC790018E878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECE5FD620B1AC7A0018E878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECE5FD920B1AC7A0018E878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECE5FDB20B1AC7A0018E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE5FE020B1AC7A0018E878 /* CammeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CammeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECE5FE420B1AC7A0018E878 /* CammeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CammeetTests.swift; sourceTree = "<group>"; };
+		CECE5FE620B1AC7A0018E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE5FEB20B1AC7A0018E878 /* CammeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CammeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CammeetUITests.swift; sourceTree = "<group>"; };
+		CECE5FF120B1AC7A0018E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECE5FC920B1AC790018E878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE5FDD20B1AC7A0018E878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE5FE820B1AC7A0018E878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECE5FC320B1AC790018E878 = {
+			isa = PBXGroup;
+			children = (
+				CECE5FCE20B1AC790018E878 /* Cammeet */,
+				CECE5FE320B1AC7A0018E878 /* CammeetTests */,
+				CECE5FEE20B1AC7A0018E878 /* CammeetUITests */,
+				CECE5FCD20B1AC790018E878 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECE5FCD20B1AC790018E878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECE5FCC20B1AC790018E878 /* Cammeet.app */,
+				CECE5FE020B1AC7A0018E878 /* CammeetTests.xctest */,
+				CECE5FEB20B1AC7A0018E878 /* CammeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECE5FCE20B1AC790018E878 /* Cammeet */ = {
+			isa = PBXGroup;
+			children = (
+				CECE5FCF20B1AC790018E878 /* AppDelegate.swift */,
+				CECE5FD120B1AC790018E878 /* ViewController.swift */,
+				CECE5FD320B1AC790018E878 /* Main.storyboard */,
+				CECE5FD620B1AC7A0018E878 /* Assets.xcassets */,
+				CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */,
+				CECE5FDB20B1AC7A0018E878 /* Info.plist */,
+			);
+			path = Cammeet;
+			sourceTree = "<group>";
+		};
+		CECE5FE320B1AC7A0018E878 /* CammeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECE5FE420B1AC7A0018E878 /* CammeetTests.swift */,
+				CECE5FE620B1AC7A0018E878 /* Info.plist */,
+			);
+			path = CammeetTests;
+			sourceTree = "<group>";
+		};
+		CECE5FEE20B1AC7A0018E878 /* CammeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */,
+				CECE5FF120B1AC7A0018E878 /* Info.plist */,
+			);
+			path = CammeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECE5FCB20B1AC790018E878 /* Cammeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECE5FF420B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "Cammeet" */;
+			buildPhases = (
+				CECE5FC820B1AC790018E878 /* Sources */,
+				CECE5FC920B1AC790018E878 /* Frameworks */,
+				CECE5FCA20B1AC790018E878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cammeet;
+			productName = Cammeet;
+			productReference = CECE5FCC20B1AC790018E878 /* Cammeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECE5FDF20B1AC7A0018E878 /* CammeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECE5FF720B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "CammeetTests" */;
+			buildPhases = (
+				CECE5FDC20B1AC7A0018E878 /* Sources */,
+				CECE5FDD20B1AC7A0018E878 /* Frameworks */,
+				CECE5FDE20B1AC7A0018E878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECE5FE220B1AC7A0018E878 /* PBXTargetDependency */,
+			);
+			name = CammeetTests;
+			productName = CammeetTests;
+			productReference = CECE5FE020B1AC7A0018E878 /* CammeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECE5FEA20B1AC7A0018E878 /* CammeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECE5FFA20B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "CammeetUITests" */;
+			buildPhases = (
+				CECE5FE720B1AC7A0018E878 /* Sources */,
+				CECE5FE820B1AC7A0018E878 /* Frameworks */,
+				CECE5FE920B1AC7A0018E878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECE5FED20B1AC7A0018E878 /* PBXTargetDependency */,
+			);
+			name = CammeetUITests;
+			productName = CammeetUITests;
+			productReference = CECE5FEB20B1AC7A0018E878 /* CammeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECE5FC420B1AC790018E878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = TYLENOL;
+				TargetAttributes = {
+					CECE5FCB20B1AC790018E878 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					CECE5FDF20B1AC7A0018E878 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = CECE5FCB20B1AC790018E878;
+					};
+					CECE5FEA20B1AC7A0018E878 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = CECE5FCB20B1AC790018E878;
+					};
+				};
+			};
+			buildConfigurationList = CECE5FC720B1AC790018E878 /* Build configuration list for PBXProject "Cammeet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECE5FC320B1AC790018E878;
+			productRefGroup = CECE5FCD20B1AC790018E878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECE5FCB20B1AC790018E878 /* Cammeet */,
+				CECE5FDF20B1AC7A0018E878 /* CammeetTests */,
+				CECE5FEA20B1AC7A0018E878 /* CammeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECE5FCA20B1AC790018E878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */,
+				CECE5FD720B1AC7A0018E878 /* Assets.xcassets in Resources */,
+				CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE5FDE20B1AC7A0018E878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE5FE920B1AC7A0018E878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECE5FC820B1AC790018E878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */,
+				CECE5FD020B1AC790018E878 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE5FDC20B1AC7A0018E878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE5FE520B1AC7A0018E878 /* CammeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE5FE720B1AC7A0018E878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE5FF020B1AC7A0018E878 /* CammeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECE5FE220B1AC7A0018E878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECE5FCB20B1AC790018E878 /* Cammeet */;
+			targetProxy = CECE5FE120B1AC7A0018E878 /* PBXContainerItemProxy */;
+		};
+		CECE5FED20B1AC7A0018E878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECE5FCB20B1AC790018E878 /* Cammeet */;
+			targetProxy = CECE5FEC20B1AC7A0018E878 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECE5FD320B1AC790018E878 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECE5FD420B1AC790018E878 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECE5FD920B1AC7A0018E878 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECE5FF220B1AC7A0018E878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECE5FF320B1AC7A0018E878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECE5FF520B1AC7A0018E878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2U3STX6JY;
+				INFOPLIST_FILE = Cammeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.Cammeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECE5FF620B1AC7A0018E878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2U3STX6JY;
+				INFOPLIST_FILE = Cammeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.Cammeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CECE5FF820B1AC7A0018E878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2U3STX6JY;
+				INFOPLIST_FILE = CammeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.CammeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cammeet.app/Cammeet";
+			};
+			name = Debug;
+		};
+		CECE5FF920B1AC7A0018E878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2U3STX6JY;
+				INFOPLIST_FILE = CammeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.CammeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cammeet.app/Cammeet";
+			};
+			name = Release;
+		};
+		CECE5FFB20B1AC7A0018E878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2U3STX6JY;
+				INFOPLIST_FILE = CammeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.CammeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cammeet;
+			};
+			name = Debug;
+		};
+		CECE5FFC20B1AC7A0018E878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2U3STX6JY;
+				INFOPLIST_FILE = CammeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chemistry.CammeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cammeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECE5FC720B1AC790018E878 /* Build configuration list for PBXProject "Cammeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE5FF220B1AC7A0018E878 /* Debug */,
+				CECE5FF320B1AC7A0018E878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECE5FF420B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "Cammeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE5FF520B1AC7A0018E878 /* Debug */,
+				CECE5FF620B1AC7A0018E878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECE5FF720B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "CammeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE5FF820B1AC7A0018E878 /* Debug */,
+				CECE5FF920B1AC7A0018E878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECE5FFA20B1AC7A0018E878 /* Build configuration list for PBXNativeTarget "CammeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECE5FFB20B1AC7A0018E878 /* Debug */,
+				CECE5FFC20B1AC7A0018E878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECE5FC420B1AC790018E878 /* Project object */;
+}
