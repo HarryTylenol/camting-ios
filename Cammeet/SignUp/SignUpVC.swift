@@ -18,6 +18,8 @@ class SignUpVC: YSViewController {
 	override func setupViews() {
 		super.setupViews()
 		
+		setupBars()
+		
 		view = dView
 	}
 	
@@ -26,9 +28,21 @@ class SignUpVC: YSViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		self.title = "가입하기"
 	}
 	
+	fileprivate func setupBars() {
+		self.title = "가입하기"
+
+		
+		// setup Toolbar
+		self.navigationController?.isToolbarHidden = false
+		let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+		let signUpButton = UIBarButtonItem(title: "가입하기", style: .plain, target: self, action: #selector(didTapSignUp))
+		self.toolbarItems = [space, signUpButton]
+	}
 	
+	@objc fileprivate func didTapSignUp() {
+		print("---SignUp")
+	}
 }
 

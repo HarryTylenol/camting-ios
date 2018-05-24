@@ -12,6 +12,7 @@ class SignUpView: YSScrollView {
 	
 	let profileImgButton = UIButton().then {
 		$0.backgroundColor = .gray
+		$0.layer.cornerRadius = 46
 	}
 	
 	let nameTF = UITextField().then {
@@ -38,6 +39,7 @@ class SignUpView: YSScrollView {
 		
 		$0.font = UIFont.systemFont(ofSize: 14, weight: .medium)
 		$0.alpha = 0.2
+		$0.numberOfLines = 0
 	}
 	
 	// MARK: Elements
@@ -48,9 +50,35 @@ class SignUpView: YSScrollView {
 	
 		profileImgButton.snp.remakeConstraints { make -> Void in
 			make.top.equalTo(contentView).offset(64)
-			make.size.equalTo(93)
+			make.size.equalTo(92)
+			make.left.equalTo(readableContentGuide).offset(20)
 		}
 
+		nameTF.snp.remakeConstraints { make -> Void in
+			make.left.right.equalTo(readableContentGuide).inset(20)
+			make.top.equalTo(profileImgButton.snp.bottom).offset(24)
+			make.height.equalTo(87)
+		}
 		
+		maleButton.snp.remakeConstraints { make -> Void in
+			make.top.equalTo(nameTF.snp.bottom).offset(24)
+			make.left.equalTo(nameTF)
+			make.size.equalTo(CGSize(width: 66, height: 40))
+		}
+		
+		femaleButton.snp.remakeConstraints { make -> Void in
+			make.top.size.equalTo(maleButton)
+			make.left.equalTo(maleButton.snp.right).offset(10)
+		}
+		
+		treatyLabel.snp.remakeConstraints { make -> Void in
+			make.left.right.equalTo(nameTF)
+			make.top.equalTo(maleButton.snp.bottom).offset(20)
+			make.bottom.equalTo(contentView).offset(-24)
+		}
+
+
+
+
 	}
 }
