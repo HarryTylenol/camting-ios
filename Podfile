@@ -7,6 +7,7 @@ target 'Cammeet' do
 
   # Pods for Cammeet
   pod 'LayoutKit'
+  pod 'Then'
   pod 'SnapKit', '~> 4.0.0'
 
   target 'CammeetTests' do

@@ -17,6 +17,25 @@
 		CECE5FE520B1AC7A0018E878 /* CammeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FE420B1AC7A0018E878 /* CammeetTests.swift */; };
 		CECE5FF020B1AC7A0018E878 /* CammeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */; };
 		E205FDCF4BBF2A0BC3D4E3E9 /* Pods_CammeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCDC3A15A0A7BFB318DC7FD /* Pods_CammeetTests.framework */; };
+		EF8AD34920B686BC001EB562 /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34820B686BC001EB562 /* InitView.swift */; };
+		EF8AD34C20B686FA001EB562 /* YSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34B20B686FA001EB562 /* YSView.swift */; };
+		EF8AD34F20B68852001EB562 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34E20B68852001EB562 /* UIView+.swift */; };
+		EF8AD35120B689D7001EB562 /* InitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD35020B689D7001EB562 /* InitVC.swift */; };
+		EF8AD35320B68A08001EB562 /* YSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD35220B68A08001EB562 /* YSViewController.swift */; };
+		EF8AD35620B68DFD001EB562 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD35520B68DFD001EB562 /* LoginView.swift */; };
+		EF8AD35820B68E06001EB562 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD35720B68E06001EB562 /* LoginVC.swift */; };
+		EF8AD35E20B69716001EB562 /* BMDOHYEON_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF8AD35D20B69716001EB562 /* BMDOHYEON_otf.otf */; };
+		EF8AD35F20B69716001EB562 /* BMDOHYEON_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF8AD35D20B69716001EB562 /* BMDOHYEON_otf.otf */; };
+		EF8AD36020B69716001EB562 /* BMDOHYEON_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF8AD35D20B69716001EB562 /* BMDOHYEON_otf.otf */; };
+		EF8AD36420B69BAF001EB562 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36320B69BAF001EB562 /* SignUpView.swift */; };
+		EF8AD36520B69BAF001EB562 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36320B69BAF001EB562 /* SignUpView.swift */; };
+		EF8AD36620B69BAF001EB562 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36320B69BAF001EB562 /* SignUpView.swift */; };
+		EF8AD36820B69BB9001EB562 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36720B69BB9001EB562 /* SignUpVC.swift */; };
+		EF8AD36920B69BB9001EB562 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36720B69BB9001EB562 /* SignUpVC.swift */; };
+		EF8AD36A20B69BB9001EB562 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36720B69BB9001EB562 /* SignUpVC.swift */; };
+		EF8AD36C20B69E94001EB562 /* YSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36B20B69E94001EB562 /* YSScrollView.swift */; };
+		EF8AD36D20B69E94001EB562 /* YSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36B20B69E94001EB562 /* YSScrollView.swift */; };
+		EF8AD36E20B69E94001EB562 /* YSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36B20B69E94001EB562 /* YSScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +76,17 @@
 		CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CammeetUITests.swift; sourceTree = "<group>"; };
 		CECE5FF120B1AC7A0018E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7FEEC42E49F2BAF2E5C39B1 /* Pods-CammeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetUITests/Pods-CammeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF8AD34820B686BC001EB562 /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
+		EF8AD34B20B686FA001EB562 /* YSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSView.swift; sourceTree = "<group>"; };
+		EF8AD34E20B68852001EB562 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		EF8AD35020B689D7001EB562 /* InitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitVC.swift; sourceTree = "<group>"; };
+		EF8AD35220B68A08001EB562 /* YSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSViewController.swift; sourceTree = "<group>"; };
+		EF8AD35520B68DFD001EB562 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EF8AD35720B68E06001EB562 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EF8AD35D20B69716001EB562 /* BMDOHYEON_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMDOHYEON_otf.otf; sourceTree = "<group>"; };
+		EF8AD36320B69BAF001EB562 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EF8AD36720B69BB9001EB562 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		EF8AD36B20B69E94001EB562 /* YSScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSScrollView.swift; sourceTree = "<group>"; };
 		FC242E1D58E55281AA10E216 /* Pods_CammeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CammeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE317C8384C466D5FD7F75B /* Pods-Cammeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cammeet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cammeet/Pods-Cammeet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,10 +157,15 @@
 		CECE5FCE20B1AC790018E878 /* Cammeet */ = {
 			isa = PBXGroup;
 			children = (
+				EF8AD36220B69B9D001EB562 /* SignUp */,
+				EF8AD34A20B686F0001EB562 /* Base */,
+				EF8AD34720B686AF001EB562 /* Init */,
+				EF8AD35420B68DE8001EB562 /* Login */,
 				CECE5FCF20B1AC790018E878 /* AppDelegate.swift */,
 				CECE5FD120B1AC790018E878 /* ViewController.swift */,
 				CECE5FD320B1AC790018E878 /* Main.storyboard */,
 				CECE5FD620B1AC7A0018E878 /* Assets.xcassets */,
+				EF8AD35D20B69716001EB562 /* BMDOHYEON_otf.otf */,
 				CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */,
 				CECE5FDB20B1AC7A0018E878 /* Info.plist */,
 			);
@@ -163,6 +198,52 @@
 				FC242E1D58E55281AA10E216 /* Pods_CammeetUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF8AD34720B686AF001EB562 /* Init */ = {
+			isa = PBXGroup;
+			children = (
+				EF8AD35020B689D7001EB562 /* InitVC.swift */,
+				EF8AD34820B686BC001EB562 /* InitView.swift */,
+			);
+			path = Init;
+			sourceTree = "<group>";
+		};
+		EF8AD34A20B686F0001EB562 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF8AD34D20B6882E001EB562 /* Extension */,
+				EF8AD34B20B686FA001EB562 /* YSView.swift */,
+				EF8AD35220B68A08001EB562 /* YSViewController.swift */,
+				EF8AD36B20B69E94001EB562 /* YSScrollView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EF8AD34D20B6882E001EB562 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF8AD34E20B68852001EB562 /* UIView+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF8AD35420B68DE8001EB562 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EF8AD35720B68E06001EB562 /* LoginVC.swift */,
+				EF8AD35520B68DFD001EB562 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EF8AD36220B69B9D001EB562 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				EF8AD36320B69BAF001EB562 /* SignUpView.swift */,
+				EF8AD36720B69BB9001EB562 /* SignUpVC.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */,
+				EF8AD35E20B69716001EB562 /* BMDOHYEON_otf.otf in Resources */,
 				CECE5FD720B1AC7A0018E878 /* Assets.xcassets in Resources */,
 				CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */,
 			);
@@ -283,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8AD35F20B69716001EB562 /* BMDOHYEON_otf.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8AD36020B69716001EB562 /* BMDOHYEON_otf.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,11 +443,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Cammeet/Pods-Cammeet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -378,7 +464,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */,
+				EF8AD34920B686BC001EB562 /* InitView.swift in Sources */,
+				EF8AD34C20B686FA001EB562 /* YSView.swift in Sources */,
+				EF8AD36820B69BB9001EB562 /* SignUpVC.swift in Sources */,
 				CECE5FD020B1AC790018E878 /* AppDelegate.swift in Sources */,
+				EF8AD35120B689D7001EB562 /* InitVC.swift in Sources */,
+				EF8AD35820B68E06001EB562 /* LoginVC.swift in Sources */,
+				EF8AD36C20B69E94001EB562 /* YSScrollView.swift in Sources */,
+				EF8AD36420B69BAF001EB562 /* SignUpView.swift in Sources */,
+				EF8AD34F20B68852001EB562 /* UIView+.swift in Sources */,
+				EF8AD35620B68DFD001EB562 /* LoginView.swift in Sources */,
+				EF8AD35320B68A08001EB562 /* YSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +482,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8AD36520B69BAF001EB562 /* SignUpView.swift in Sources */,
+				EF8AD36920B69BB9001EB562 /* SignUpVC.swift in Sources */,
 				CECE5FE520B1AC7A0018E878 /* CammeetTests.swift in Sources */,
+				EF8AD36D20B69E94001EB562 /* YSScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +493,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8AD36620B69BAF001EB562 /* SignUpView.swift in Sources */,
+				EF8AD36A20B69BB9001EB562 /* SignUpVC.swift in Sources */,
 				CECE5FF020B1AC7A0018E878 /* CammeetUITests.swift in Sources */,
+				EF8AD36E20B69E94001EB562 /* YSScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
