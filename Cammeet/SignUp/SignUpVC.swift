@@ -32,7 +32,6 @@ class SignUpVC: YSViewController {
 	
 	fileprivate func setupBars() {
 		self.title = "가입하기"
-
 		
 		// setup Toolbar
 		self.navigationController?.isToolbarHidden = false

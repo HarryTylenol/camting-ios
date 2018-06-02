@@ -13,6 +13,8 @@
 		CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD320B1AC790018E878 /* Main.storyboard */; };
 		CECE5FD720B1AC7A0018E878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD620B1AC7A0018E878 /* Assets.xcassets */; };
 		CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */; };
+		EF4A5D2920C2E58100DBB22A /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D2820C2E58100DBB22A /* ChatListVC.swift */; };
+		EF4A5D2B20C2E58A00DBB22A /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D2A20C2E58A00DBB22A /* ChatCell.swift */; };
 		EF8AD34920B686BC001EB562 /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34820B686BC001EB562 /* InitView.swift */; };
 		EF8AD34C20B686FA001EB562 /* YSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34B20B686FA001EB562 /* YSView.swift */; };
 		EF8AD34F20B68852001EB562 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34E20B68852001EB562 /* UIView+.swift */; };
@@ -45,6 +47,8 @@
 		CECE5FEF20B1AC7A0018E878 /* CammeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CammeetUITests.swift; sourceTree = "<group>"; };
 		CECE5FF120B1AC7A0018E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7FEEC42E49F2BAF2E5C39B1 /* Pods-CammeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetUITests/Pods-CammeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF4A5D2820C2E58100DBB22A /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
+		EF4A5D2A20C2E58A00DBB22A /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		EF8AD34820B686BC001EB562 /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
 		EF8AD34B20B686FA001EB562 /* YSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSView.swift; sourceTree = "<group>"; };
 		EF8AD34E20B68852001EB562 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		CECE5FCE20B1AC790018E878 /* Cammeet */ = {
 			isa = PBXGroup;
 			children = (
+				EF4A5D2720C2E56F00DBB22A /* Chat */,
 				EF8AD36220B69B9D001EB562 /* SignUp */,
 				EF8AD34A20B686F0001EB562 /* Base */,
 				EF8AD34720B686AF001EB562 /* Init */,
@@ -149,6 +154,15 @@
 				FC242E1D58E55281AA10E216 /* Pods_CammeetUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4A5D2720C2E56F00DBB22A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A5D2820C2E58100DBB22A /* ChatListVC.swift */,
+				EF4A5D2A20C2E58A00DBB22A /* ChatCell.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		EF8AD34720B686AF001EB562 /* Init */ = {
@@ -317,6 +331,7 @@
 				EF8AD34C20B686FA001EB562 /* YSView.swift in Sources */,
 				EF8AD35320B68A08001EB562 /* YSViewController.swift in Sources */,
 				EF8AD36C20B69E94001EB562 /* YSScrollView.swift in Sources */,
+				EF4A5D2920C2E58100DBB22A /* ChatListVC.swift in Sources */,
 				CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */,
 				EF8AD34920B686BC001EB562 /* InitView.swift in Sources */,
 				EF8AD36820B69BB9001EB562 /* SignUpVC.swift in Sources */,
@@ -324,6 +339,7 @@
 				EF8AD35120B689D7001EB562 /* InitVC.swift in Sources */,
 				EF8AD35820B68E06001EB562 /* LoginVC.swift in Sources */,
 				EF8AD36420B69BAF001EB562 /* SignUpView.swift in Sources */,
+				EF4A5D2B20C2E58A00DBB22A /* ChatCell.swift in Sources */,
 				EF8AD34F20B68852001EB562 /* UIView+.swift in Sources */,
 				EF8AD35620B68DFD001EB562 /* LoginView.swift in Sources */,
 			);
