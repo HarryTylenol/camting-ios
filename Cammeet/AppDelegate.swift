@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,7 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		window = UIWindow()
 		window?.makeKeyAndVisible()
 //		window?.rootViewController = UINavigationController(rootViewController: SignUpVC())
-		window?.rootViewController = MainTabBarVC()
+//		window?.rootViewController = MainTabBarVC()
+		window?.rootViewController = LoginVC()
+		
+		// Use Firebase library to configure APIs
+		FirebaseApp.configure()
 		
         return true
     }

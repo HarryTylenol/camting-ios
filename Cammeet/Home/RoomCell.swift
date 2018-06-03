@@ -35,7 +35,7 @@ class RoomCell: YSCollectionViewCell {
 		}
 		
 		descLabel.snp.remakeConstraints { make -> Void in
-			make.top.equalTo(titleLabel.snp.bottom)
+			make.top.equalTo(titleLabel.snp.bottom).offset(6)
 			make.left.right.equalTo(titleLabel)
 		}
 

@@ -9,15 +9,7 @@ target 'Cammeet' do
   pod 'LayoutKit'
   pod 'Then'
   pod 'SnapKit', '~> 4.0.0'
+  pod 'Firebase/Core'
 
-  target 'CammeetTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'CammeetUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		70D23EFCEC2C76ED649B7332 /* Pods_Cammeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E98316366FB13B6DADCF22 /* Pods_Cammeet.framework */; };
 		CECE5FD020B1AC790018E878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FCF20B1AC790018E878 /* AppDelegate.swift */; };
-		CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE5FD120B1AC790018E878 /* ViewController.swift */; };
 		CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD320B1AC790018E878 /* Main.storyboard */; };
 		CECE5FD720B1AC7A0018E878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD620B1AC7A0018E878 /* Assets.xcassets */; };
 		CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */; };
@@ -22,6 +21,7 @@
 		EF4A5D3620C3CF3300DBB22A /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3520C3CF3300DBB22A /* RoomCell.swift */; };
 		EF4A5D3820C3D0D000DBB22A /* YSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3720C3D0D000DBB22A /* YSCollectionViewCell.swift */; };
 		EF4A5D3A20C3DA8B00DBB22A /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3920C3DA8B00DBB22A /* UIColor+.swift */; };
+		EF4A5D3C20C3E27400DBB22A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4A5D3B20C3E27300DBB22A /* GoogleService-Info.plist */; };
 		EF8AD34920B686BC001EB562 /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34820B686BC001EB562 /* InitView.swift */; };
 		EF8AD34C20B686FA001EB562 /* YSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34B20B686FA001EB562 /* YSView.swift */; };
 		EF8AD34F20B68852001EB562 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34E20B68852001EB562 /* UIView+.swift */; };
@@ -44,7 +44,6 @@
 		7AC008755EBDB27FD64477C8 /* Pods-CammeetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetTests/Pods-CammeetTests.release.xcconfig"; sourceTree = "<group>"; };
 		CECE5FCC20B1AC790018E878 /* Cammeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cammeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECE5FCF20B1AC790018E878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CECE5FD120B1AC790018E878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CECE5FD420B1AC790018E878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CECE5FD620B1AC7A0018E878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECE5FD920B1AC7A0018E878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		EF4A5D3520C3CF3300DBB22A /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
 		EF4A5D3720C3D0D000DBB22A /* YSCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCollectionViewCell.swift; sourceTree = "<group>"; };
 		EF4A5D3920C3DA8B00DBB22A /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		EF4A5D3B20C3E27300DBB22A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF8AD34820B686BC001EB562 /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
 		EF8AD34B20B686FA001EB562 /* YSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSView.swift; sourceTree = "<group>"; };
 		EF8AD34E20B68852001EB562 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
@@ -133,12 +133,12 @@
 				EF8AD34720B686AF001EB562 /* Init */,
 				EF8AD35420B68DE8001EB562 /* Login */,
 				CECE5FCF20B1AC790018E878 /* AppDelegate.swift */,
-				CECE5FD120B1AC790018E878 /* ViewController.swift */,
 				CECE5FD320B1AC790018E878 /* Main.storyboard */,
 				CECE5FD620B1AC7A0018E878 /* Assets.xcassets */,
 				EF8AD35D20B69716001EB562 /* BMDOHYEON_otf.otf */,
 				CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */,
 				CECE5FDB20B1AC7A0018E878 /* Info.plist */,
+				EF4A5D3B20C3E27300DBB22A /* GoogleService-Info.plist */,
 				EF4A5D2C20C3C68900DBB22A /* MainTabBarVC.swift */,
 			);
 			path = Cammeet;
@@ -302,6 +302,7 @@
 			files = (
 				CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */,
 				EF8AD35E20B69716001EB562 /* BMDOHYEON_otf.otf in Resources */,
+				EF4A5D3C20C3E27400DBB22A /* GoogleService-Info.plist in Resources */,
 				CECE5FD720B1AC7A0018E878 /* Assets.xcassets in Resources */,
 				CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */,
 			);
@@ -335,15 +336,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Cammeet/Pods-Cammeet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,7 +368,6 @@
 				EF8AD36C20B69E94001EB562 /* YSScrollView.swift in Sources */,
 				EF4A5D2920C2E58100DBB22A /* ChatListVC.swift in Sources */,
 				EF4A5D3220C3C7E300DBB22A /* HomeView.swift in Sources */,
-				CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */,
 				EF8AD34920B686BC001EB562 /* InitView.swift in Sources */,
 				EF8AD36820B69BB9001EB562 /* SignUpVC.swift in Sources */,
 				EF4A5D3820C3D0D000DBB22A /* YSCollectionViewCell.swift in Sources */,
