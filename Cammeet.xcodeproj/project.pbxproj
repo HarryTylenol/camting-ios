@@ -15,6 +15,13 @@
 		CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */; };
 		EF4A5D2920C2E58100DBB22A /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D2820C2E58100DBB22A /* ChatListVC.swift */; };
 		EF4A5D2B20C2E58A00DBB22A /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D2A20C2E58A00DBB22A /* ChatCell.swift */; };
+		EF4A5D2D20C3C68900DBB22A /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D2C20C3C68900DBB22A /* MainTabBarVC.swift */; };
+		EF4A5D3020C3C7DA00DBB22A /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D2F20C3C7DA00DBB22A /* HomeCVC.swift */; };
+		EF4A5D3220C3C7E300DBB22A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3120C3C7E300DBB22A /* HomeView.swift */; };
+		EF4A5D3420C3CD1500DBB22A /* YSCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3320C3CD1500DBB22A /* YSCollectionViewController.swift */; };
+		EF4A5D3620C3CF3300DBB22A /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3520C3CF3300DBB22A /* RoomCell.swift */; };
+		EF4A5D3820C3D0D000DBB22A /* YSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3720C3D0D000DBB22A /* YSCollectionViewCell.swift */; };
+		EF4A5D3A20C3DA8B00DBB22A /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A5D3920C3DA8B00DBB22A /* UIColor+.swift */; };
 		EF8AD34920B686BC001EB562 /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34820B686BC001EB562 /* InitView.swift */; };
 		EF8AD34C20B686FA001EB562 /* YSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34B20B686FA001EB562 /* YSView.swift */; };
 		EF8AD34F20B68852001EB562 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD34E20B68852001EB562 /* UIView+.swift */; };
@@ -49,6 +56,13 @@
 		E7FEEC42E49F2BAF2E5C39B1 /* Pods-CammeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CammeetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CammeetUITests/Pods-CammeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF4A5D2820C2E58100DBB22A /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
 		EF4A5D2A20C2E58A00DBB22A /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		EF4A5D2C20C3C68900DBB22A /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		EF4A5D2F20C3C7DA00DBB22A /* HomeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		EF4A5D3120C3C7E300DBB22A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EF4A5D3320C3CD1500DBB22A /* YSCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCollectionViewController.swift; sourceTree = "<group>"; };
+		EF4A5D3520C3CF3300DBB22A /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		EF4A5D3720C3D0D000DBB22A /* YSCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF4A5D3920C3DA8B00DBB22A /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		EF8AD34820B686BC001EB562 /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
 		EF8AD34B20B686FA001EB562 /* YSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSView.swift; sourceTree = "<group>"; };
 		EF8AD34E20B68852001EB562 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
@@ -112,9 +126,10 @@
 		CECE5FCE20B1AC790018E878 /* Cammeet */ = {
 			isa = PBXGroup;
 			children = (
+				EF8AD34A20B686F0001EB562 /* Base */,
+				EF4A5D2E20C3C7BA00DBB22A /* Home */,
 				EF4A5D2720C2E56F00DBB22A /* Chat */,
 				EF8AD36220B69B9D001EB562 /* SignUp */,
-				EF8AD34A20B686F0001EB562 /* Base */,
 				EF8AD34720B686AF001EB562 /* Init */,
 				EF8AD35420B68DE8001EB562 /* Login */,
 				CECE5FCF20B1AC790018E878 /* AppDelegate.swift */,
@@ -124,6 +139,7 @@
 				EF8AD35D20B69716001EB562 /* BMDOHYEON_otf.otf */,
 				CECE5FD820B1AC7A0018E878 /* LaunchScreen.storyboard */,
 				CECE5FDB20B1AC7A0018E878 /* Info.plist */,
+				EF4A5D2C20C3C68900DBB22A /* MainTabBarVC.swift */,
 			);
 			path = Cammeet;
 			sourceTree = "<group>";
@@ -165,6 +181,16 @@
 			path = Chat;
 			sourceTree = "<group>";
 		};
+		EF4A5D2E20C3C7BA00DBB22A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A5D2F20C3C7DA00DBB22A /* HomeCVC.swift */,
+				EF4A5D3120C3C7E300DBB22A /* HomeView.swift */,
+				EF4A5D3520C3CF3300DBB22A /* RoomCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		EF8AD34720B686AF001EB562 /* Init */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +206,9 @@
 				EF8AD34D20B6882E001EB562 /* Extension */,
 				EF8AD34B20B686FA001EB562 /* YSView.swift */,
 				EF8AD35220B68A08001EB562 /* YSViewController.swift */,
+				EF4A5D3320C3CD1500DBB22A /* YSCollectionViewController.swift */,
 				EF8AD36B20B69E94001EB562 /* YSScrollView.swift */,
+				EF4A5D3720C3D0D000DBB22A /* YSCollectionViewCell.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -189,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8AD34E20B68852001EB562 /* UIView+.swift */,
+				EF4A5D3920C3DA8B00DBB22A /* UIColor+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -329,19 +358,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8AD34C20B686FA001EB562 /* YSView.swift in Sources */,
+				EF4A5D2D20C3C68900DBB22A /* MainTabBarVC.swift in Sources */,
 				EF8AD35320B68A08001EB562 /* YSViewController.swift in Sources */,
 				EF8AD36C20B69E94001EB562 /* YSScrollView.swift in Sources */,
 				EF4A5D2920C2E58100DBB22A /* ChatListVC.swift in Sources */,
+				EF4A5D3220C3C7E300DBB22A /* HomeView.swift in Sources */,
 				CECE5FD220B1AC790018E878 /* ViewController.swift in Sources */,
 				EF8AD34920B686BC001EB562 /* InitView.swift in Sources */,
 				EF8AD36820B69BB9001EB562 /* SignUpVC.swift in Sources */,
+				EF4A5D3820C3D0D000DBB22A /* YSCollectionViewCell.swift in Sources */,
 				CECE5FD020B1AC790018E878 /* AppDelegate.swift in Sources */,
+				EF4A5D3420C3CD1500DBB22A /* YSCollectionViewController.swift in Sources */,
+				EF4A5D3020C3C7DA00DBB22A /* HomeCVC.swift in Sources */,
 				EF8AD35120B689D7001EB562 /* InitVC.swift in Sources */,
 				EF8AD35820B68E06001EB562 /* LoginVC.swift in Sources */,
 				EF8AD36420B69BAF001EB562 /* SignUpView.swift in Sources */,
 				EF4A5D2B20C2E58A00DBB22A /* ChatCell.swift in Sources */,
+				EF4A5D3620C3CF3300DBB22A /* RoomCell.swift in Sources */,
 				EF8AD34F20B68852001EB562 /* UIView+.swift in Sources */,
 				EF8AD35620B68DFD001EB562 /* LoginView.swift in Sources */,
+				EF4A5D3A20C3DA8B00DBB22A /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
