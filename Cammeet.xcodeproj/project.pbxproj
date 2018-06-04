@@ -63,6 +63,7 @@
 		EF4A5D3720C3D0D000DBB22A /* YSCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCollectionViewCell.swift; sourceTree = "<group>"; };
 		EF4A5D3920C3DA8B00DBB22A /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		EF4A5D3B20C3E27300DBB22A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF4A5D3D20C3EBBD00DBB22A /* Cammeet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cammeet.entitlements; sourceTree = "<group>"; };
 		EF8AD34820B686BC001EB562 /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
 		EF8AD34B20B686FA001EB562 /* YSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSView.swift; sourceTree = "<group>"; };
 		EF8AD34E20B68852001EB562 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 		CECE5FCE20B1AC790018E878 /* Cammeet */ = {
 			isa = PBXGroup;
 			children = (
+				EF4A5D3D20C3EBBD00DBB22A /* Cammeet.entitlements */,
 				EF8AD34A20B686F0001EB562 /* Base */,
 				EF4A5D2E20C3C7BA00DBB22A /* Home */,
 				EF4A5D2720C2E56F00DBB22A /* Chat */,
@@ -274,6 +276,11 @@
 				TargetAttributes = {
 					CECE5FCB20B1AC790018E878 = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -336,6 +343,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Cammeet/Pods-Cammeet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -344,6 +352,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -526,6 +535,7 @@
 			baseConfigurationReference = FCE317C8384C466D5FD7F75B /* Pods-Cammeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cammeet/Cammeet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 827YX997NH;
 				INFOPLIST_FILE = Cammeet/Info.plist;
@@ -546,6 +556,7 @@
 			baseConfigurationReference = 34F12FB065E6C70A75E50240 /* Pods-Cammeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cammeet/Cammeet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 827YX997NH;
 				INFOPLIST_FILE = Cammeet/Info.plist;
