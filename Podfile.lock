@@ -29,6 +29,9 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
   - SnapKit (4.0.0)
   - Then (2.3.0)
 
@@ -36,6 +39,8 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - LayoutKit
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
   - SnapKit (~> 4.0.0)
   - Then
 
@@ -50,6 +55,8 @@ SPEC REPOS:
     - GTMSessionFetcher
     - LayoutKit
     - nanopb
+    - RxCocoa
+    - RxSwift
     - SnapKit
     - Then
 
@@ -63,9 +70,11 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
   LayoutKit: 5116e931d7ec963c3d5d2bf8b87040068a31b461
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
 
-PODFILE CHECKSUM: 28f4e8e415746c20148ecee1f54c7ae293a4d808
+PODFILE CHECKSUM: f45646c1cc6fcc43134dcccf48ef5d0a68299935
 
 COCOAPODS: 1.5.2

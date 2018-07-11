@@ -17,11 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		
-		window = UIWindow()
-		window?.makeKeyAndVisible()
+		//window = UIWindow()
+		//window?.makeKeyAndVisible()
 //		window?.rootViewController = UINavigationController(rootViewController: SignUpVC())
 //		window?.rootViewController = MainTabBarVC()
-		window?.rootViewController = LoginVC()
+		//window?.rootViewController = LoginVC()
 		
 		// Use Firebase library to configure APIs
 		FirebaseApp.configure()

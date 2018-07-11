@@ -9,6 +9,8 @@ target 'Cammeet' do
   pod 'LayoutKit'
   pod 'Then'
   pod 'SnapKit', '~> 4.0.0'
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
 
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
