@@ -34,6 +34,7 @@
 		EF8AD36820B69BB9001EB562 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36720B69BB9001EB562 /* SignUpVC.swift */; };
 		EF8AD36C20B69E94001EB562 /* YSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8AD36B20B69E94001EB562 /* YSScrollView.swift */; };
 		EF9DD84B20F60A8400A5925F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9DD84A20F60A8400A5925F /* Login.storyboard */; };
+		EF9DD84D20F611F100A5925F /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9DD84C20F611F100A5925F /* SignUp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		EF8AD36720B69BB9001EB562 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		EF8AD36B20B69E94001EB562 /* YSScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSScrollView.swift; sourceTree = "<group>"; };
 		EF9DD84A20F60A8400A5925F /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		EF9DD84C20F611F100A5925F /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		FC242E1D58E55281AA10E216 /* Pods_CammeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CammeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE317C8384C466D5FD7F75B /* Pods-Cammeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cammeet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cammeet/Pods-Cammeet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -241,6 +243,7 @@
 			children = (
 				EF8AD36320B69BAF001EB562 /* SignUpView.swift */,
 				EF8AD36720B69BB9001EB562 /* SignUpVC.swift */,
+				EF9DD84C20F611F100A5925F /* SignUp.storyboard */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				CECE5FDA20B1AC7A0018E878 /* LaunchScreen.storyboard in Resources */,
 				EF8AD35E20B69716001EB562 /* BMDOHYEON_otf.otf in Resources */,
 				EF9DD84B20F60A8400A5925F /* Login.storyboard in Resources */,
+				EF9DD84D20F611F100A5925F /* SignUp.storyboard in Resources */,
 				EF4A5D3C20C3E27400DBB22A /* GoogleService-Info.plist in Resources */,
 				CECE5FD720B1AC7A0018E878 /* Assets.xcassets in Resources */,
 				CECE5FD520B1AC790018E878 /* Main.storyboard in Resources */,

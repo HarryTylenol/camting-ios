@@ -25,11 +25,11 @@
                                     <constraint firstAttribute="height" constant="52" id="qxc-XW-sIF"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가입하기 위해서는 전화 번호 인증이 필요해요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihf-og-iIh">
-                                <rect key="frame" x="43" y="141" width="254" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가입하기 위해서는 전화 번호 인증이 필요해요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ihf-og-iIh">
+                                <rect key="frame" x="43" y="141" width="234" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.36078431372549019" green="0.36078431372549019" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -56,7 +56,7 @@
                                 <rect key="frame" x="43" y="268" width="234" height="52"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2o-eE-8Dc">
@@ -75,6 +75,7 @@
                         <constraints>
                             <constraint firstItem="GV3-Om-Hj2" firstAttribute="centerY" secondItem="tUv-zn-2VD" secondAttribute="centerY" id="0NV-yl-IwO"/>
                             <constraint firstItem="S2o-eE-8Dc" firstAttribute="top" secondItem="JFa-OS-JDQ" secondAttribute="top" id="0wh-Tv-48m"/>
+                            <constraint firstItem="ihf-og-iIh" firstAttribute="trailing" secondItem="UUD-gT-Xb7" secondAttribute="trailing" id="2uW-zP-uk4"/>
                             <constraint firstItem="UUD-gT-Xb7" firstAttribute="width" secondItem="RB8-JP-cbB" secondAttribute="width" multiplier="0.73" id="3xP-Hb-UA7"/>
                             <constraint firstItem="ihf-og-iIh" firstAttribute="leading" secondItem="UUD-gT-Xb7" secondAttribute="leading" id="4bd-Kv-Dcg"/>
                             <constraint firstItem="UUD-gT-Xb7" firstAttribute="centerX" secondItem="tUv-zn-2VD" secondAttribute="centerX" id="4lV-21-6w6"/>

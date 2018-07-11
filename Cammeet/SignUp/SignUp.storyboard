@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nJn-e9-Mrn">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="REt-n9-Q4m">
+            <objects>
+                <viewController id="nJn-e9-Mrn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y0g-bm-VYY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="이름" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yEk-of-66k">
+                                <rect key="frame" x="43" y="192" width="234" height="52"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="e6Q-Cl-qJk"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="회원님의 이름을 입력한 후 성별을 선택해주세요!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9fw-NU-Oy1">
+                                <rect key="frame" x="43" y="141" width="234" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가입하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9La-iy-V35">
+                                <rect key="frame" x="43" y="98" width="84" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FY-g4-Jfy">
+                                <rect key="frame" x="173" y="264" width="104" height="40"/>
+                                <color key="backgroundColor" red="0.99962049720000001" green="0.41315293310000001" blue="0.56839829679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="j3j-xa-FJu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <state key="normal" title="여성으로 시작">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbu-G4-tE2">
+                                <rect key="frame" x="42.5" y="263.5" width="104.5" height="40"/>
+                                <color key="backgroundColor" red="0.24551606178283691" green="0.85938984155654907" blue="0.69133108854293823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="syI-jE-oae"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <state key="normal" title="남성으로 시작">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2FY-g4-Jfy" firstAttribute="leading" secondItem="tbu-G4-tE2" secondAttribute="trailing" constant="26" id="0M6-NG-Npx"/>
+                            <constraint firstItem="9fw-NU-Oy1" firstAttribute="top" secondItem="9La-iy-V35" secondAttribute="bottom" constant="14" id="9Uq-Ox-b2n"/>
+                            <constraint firstItem="2FY-g4-Jfy" firstAttribute="trailing" secondItem="yEk-of-66k" secondAttribute="trailing" id="GkL-6F-Ig5"/>
+                            <constraint firstItem="tbu-G4-tE2" firstAttribute="width" secondItem="2FY-g4-Jfy" secondAttribute="width" id="HEe-Zt-wgw"/>
+                            <constraint firstItem="9La-iy-V35" firstAttribute="leading" secondItem="9fw-NU-Oy1" secondAttribute="leading" id="MaV-gw-REA"/>
+                            <constraint firstItem="9fw-NU-Oy1" firstAttribute="trailing" secondItem="yEk-of-66k" secondAttribute="trailing" id="NMK-3l-Wqo"/>
+                            <constraint firstItem="yEk-of-66k" firstAttribute="centerY" secondItem="yFn-c4-Htn" secondAttribute="centerY" constant="-76" id="OKt-en-qNN"/>
+                            <constraint firstItem="yEk-of-66k" firstAttribute="top" secondItem="9fw-NU-Oy1" secondAttribute="bottom" constant="34" id="VnD-BY-lRE"/>
+                            <constraint firstItem="tbu-G4-tE2" firstAttribute="top" secondItem="2FY-g4-Jfy" secondAttribute="top" id="eoL-0K-qId"/>
+                            <constraint firstItem="yEk-of-66k" firstAttribute="width" secondItem="y0g-bm-VYY" secondAttribute="width" multiplier="0.73" id="n1M-ik-d3d"/>
+                            <constraint firstItem="2FY-g4-Jfy" firstAttribute="top" secondItem="yEk-of-66k" secondAttribute="bottom" constant="20" id="o1d-VE-cMC"/>
+                            <constraint firstItem="yEk-of-66k" firstAttribute="centerX" secondItem="yFn-c4-Htn" secondAttribute="centerX" id="s9f-3O-04x"/>
+                            <constraint firstItem="9fw-NU-Oy1" firstAttribute="leading" secondItem="yEk-of-66k" secondAttribute="leading" id="thf-dB-mgl"/>
+                            <constraint firstItem="tbu-G4-tE2" firstAttribute="leading" secondItem="yEk-of-66k" secondAttribute="leading" id="zp4-6a-Phs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yFn-c4-Htn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3UC-KT-Jtw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-313" y="58"/>
+        </scene>
+    </scenes>
+</document>
